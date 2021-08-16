@@ -12,6 +12,6 @@
 
  resolve_operacao:
 	add r24, r22		; v1 = v1 + v2
-	add r20, r18
-	sub r24, r20
-	ret
+	add r20, r18		; v3 = v3 + v4
+	sub r24, r20		; v1 = v1 - v3
+	ret			; retorno
