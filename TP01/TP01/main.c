@@ -1,7 +1,9 @@
 /*
  * TP01.c
  *
- * Author : Jo„o Paulo Cardoso D'Oliveira RA: 176851
+ * Link Reposit√≥rio: https://github.com/JoPCardoso2203/ProgramacaoDeHardware.git
+ *
+ * Author : Jo√£o Paulo Cardoso D'Oliveira RA: 176851
  */ 
 
 #include <avr/io.h>
@@ -14,14 +16,14 @@ main()
 	
     while (1) 
     {
-		//Valores da equaÁ„o
+		//Valores da equa√ß√£o
 		v1 = 0x37;
 		v2 = 45;
 		v3 = 0b00111000;
 		v4 = 0x2B;
 		
-		//MÈtodo em assembly que resolve a equaÁ„o
-		v5 = resolve_operacao(v1,v2,v3,v4); /*Resultado da equaÁ„o aqui*/
+		//M√©todo em assembly que resolve a equa√ß√£o
+		v5 = resolve_operacao(v1,v2,v3,v4); /*Resultado da equa√ß√£o aqui*/
     }
 }
 
